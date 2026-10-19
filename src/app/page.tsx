@@ -91,14 +91,14 @@ export default function HomePage() {
                 >
                   <path
                     d="M8 26 C 28 8, 55 46, 80 20 C 95 6, 110 25, 122 18"
-                    stroke="#1FAE8E"
+                    stroke="#06B6D4"
                     strokeWidth="2.5"
                     strokeLinecap="round"
                     fill="none"
                   />
                   <path
                     d="M106 14 L 123 18 L 114 31"
-                    stroke="#1FAE8E"
+                    stroke="#06B6D4"
                     strokeWidth="2.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -110,7 +110,7 @@ export default function HomePage() {
                     rx="16"
                     ry="10"
                     transform="rotate(-15 42 30)"
-                    stroke="#1FAE8E"
+                    stroke="#06B6D4"
                     strokeWidth="1.8"
                     strokeDasharray="2 4"
                     fill="none"
@@ -182,7 +182,7 @@ export default function HomePage() {
             </div>
             {/* Hero Character / Portrait */}
             <Image
-              src="/hero-woman.png"
+              src="/hero-executive.png"
               alt="Digital Marketing Growth Partner"
               width={380}
               height={460}

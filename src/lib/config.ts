@@ -11,7 +11,7 @@ export const siteConfig = {
   tagline: "Pan-India Digital Marketing & Growth Partner",
   description:
     "Full-service digital marketing agency with on-ground teams in Delhi, Mumbai and Chandigarh. SEO, Paid Media, Social, Web & Branding.",
-  logo: "/logo.png",
+  logo: "/logo-sanghai.png",
   favicon: "/icon.png",
   whatsappNumber: "917738137483",
   email: "info@sanghaienterprises.com",
