@@ -3,14 +3,12 @@
 import { useState, FormEvent } from "react";
 
 interface ContactFormProps {
-  defaultCity?: string;
   defaultService?: string;
   buttonLabel?: string;
 }
 
 export default function ContactForm({
-  defaultCity = "Delhi",
-  defaultService = "Not sure yet",
+  defaultService = "YouTube Promotion",
   buttonLabel = "Send & Get Free Proposal",
 }: ContactFormProps) {
   const [formData, setFormData] = useState({
@@ -18,7 +16,6 @@ export default function ContactForm({
     name: "",
     phone: "",
     email: "",
-    city: defaultCity,
     service: defaultService,
     message: "",
   });
@@ -65,7 +62,6 @@ export default function ContactForm({
           name: "",
           phone: "",
           email: "",
-          city: defaultCity,
           service: defaultService,
           message: "",
         });
@@ -141,7 +137,7 @@ export default function ContactForm({
         </div>
 
         <div className="form-row">
-          <div className="field">
+          <div className="field full">
             <label htmlFor="email">Work Email</label>
             <input
               type="email"
@@ -153,22 +149,6 @@ export default function ContactForm({
                 setFormData({ ...formData, email: e.target.value })
               }
             />
-          </div>
-          <div className="field">
-            <label htmlFor="city">Nearest branch</label>
-            <select
-              id="city"
-              name="city"
-              value={formData.city}
-              onChange={(e) =>
-                setFormData({ ...formData, city: e.target.value })
-              }
-            >
-              <option value="Delhi">Delhi (DEL)</option>
-              <option value="Mumbai">Mumbai (BOM)</option>
-              <option value="Chandigarh">Chandigarh (IXC)</option>
-              <option value="Other">Other / Pan-India</option>
-            </select>
           </div>
         </div>
 
@@ -183,26 +163,13 @@ export default function ContactForm({
                 setFormData({ ...formData, service: e.target.value })
               }
             >
-              <option value="SEO">Search Engine Optimisation (SEO)</option>
-              <option value="Paid Media / Google Ads">
-                Paid Media &amp; Google Ads
+              <option value="YouTube Promotion">YouTube Promotion</option>
+              <option value="YouTube Ads">YouTube Ads</option>
+              <option value="Channel Growth Strategy">
+                Channel Growth Strategy
               </option>
-              <option value="Social Media Marketing">
-                Social Media Marketing
-              </option>
-              <option value="Website Design & Development">
-                Website Design &amp; Development
-              </option>
-              <option value="Branding & Creative">
-                Branding &amp; Creative Strategy
-              </option>
-              <option value="Online Reputation Management">
-                Online Reputation Management (ORM)
-              </option>
-              <option value="Full-Funnel Growth (All Services)">
-                Full-Funnel Growth (All Services)
-              </option>
-              <option value="Not sure yet">Not sure yet (Need Guidance)</option>
+              <option value="Video SEO">Video SEO</option>
+              <option value="Not sure yet">Not sure yet</option>
             </select>
           </div>
         </div>
@@ -210,12 +177,12 @@ export default function ContactForm({
         <div className="form-row">
           <div className="field full">
             <label htmlFor="message">
-              Tell us a bit about your brand &amp; growth goals
+              Tell us about your channel &amp; growth goals
             </label>
             <textarea
               id="message"
               name="message"
-              placeholder="What are your main challenges, target audience, or revenue targets?"
+              placeholder="Share your channel link, audience, content goals, or promotion needs."
               value={formData.message}
               onChange={(e) =>
                 setFormData({ ...formData, message: e.target.value })

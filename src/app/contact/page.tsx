@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/config";
 export const metadata: Metadata = {
   title: "Contact Us & Get Free Proposal",
   description:
-    "Get in touch with Sanghai Enterprises. Contact our Delhi, Mumbai, and Chandigarh teams for a free audit and tailored digital marketing proposal.",
+    "Get in touch with Sanghai Enterprises for a focused YouTube promotion and channel growth plan.",
 };
 
 export default function ContactPage() {
@@ -116,10 +116,10 @@ export default function ContactPage() {
                     fontWeight: 600,
                   }}
                 >
-                  Regional Hubs
+                  YouTube Promotion
                 </div>
                 <span style={{ fontWeight: 600, color: "var(--ink)" }}>
-                  Delhi (DEL) &middot; Mumbai (BOM) &middot; Chandigarh (IXC)
+                  Channel strategy, video SEO, and audience growth
                 </span>
               </div>
             </div>
@@ -201,10 +201,10 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="faq-item reveal">
-              <h4>Can I visit your office in person?</h4>
+              <h4>Can you promote an existing YouTube channel?</h4>
               <p>
-                Absolutely! We have teams in Delhi, Mumbai, and Chandigarh. Let us
-                know your preferred time and we&apos;ll have the coffee ready.
+                Absolutely. Share your channel and goals, and we&apos;ll recommend
+                a promotion approach based on your content and audience.
               </p>
             </div>
           </div>

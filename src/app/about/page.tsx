@@ -5,7 +5,7 @@ import { siteConfig } from "@/lib/config";
 export const metadata: Metadata = {
   title: "Why Choose Us & About",
   description:
-    "Learn how Sanghai Enterprises combines on-ground market insight across Delhi, Mumbai, and Chandigarh with full-funnel digital marketing expertise.",
+    "Learn how Sanghai Enterprises helps creators and brands grow through focused YouTube promotion and channel strategy.",
 };
 
 export default function AboutPage() {
@@ -15,11 +15,11 @@ export default function AboutPage() {
         <div className="wrap">
           <div className="reveal">
             <span className="eyebrow">About {siteConfig.companyName}</span>
-            <h1>Built on Results. Powered by On-Ground Market Intelligence.</h1>
+            <h1>Built to help your YouTube channel get seen and remembered.</h1>
             <p>
-              We are a performance-first digital marketing and growth agency. With
-              dedicated teams in Delhi, Mumbai, and Chandigarh, we combine local
-              consumer nuance with national execution power.
+              We are a YouTube promotion and channel growth partner for creators
+              and brands that want to reach the right audience and build lasting
+              momentum.
             </p>
           </div>
         </div>
@@ -41,8 +41,8 @@ export default function AboutPage() {
                   lineHeight: 1.7,
                 }}
               >
-                Traditional marketing agencies often focus on vanity metrics
-                &mdash; likes, impressions, and superficial buzz. At{" "}
+                Traditional marketing agencies often focus on vanity metrics.
+                At{" "}
                 {siteConfig.companyName}, we view marketing as an investment
                 engine designed to generate measurable revenue, pipeline leads,
                 and compounding brand equity.
@@ -54,11 +54,9 @@ export default function AboutPage() {
                   lineHeight: 1.7,
                 }}
               >
-                By placing physical teams in India&apos;s key economic centers
-                &mdash; North India (Delhi &amp; Chandigarh) and Western India
-                (Mumbai) &mdash; we understand regional customer psychology,
-                regional ad costs, and real-time market opportunities that remote
-                agencies simply miss.
+                We focus on the signals that matter on YouTube: relevant reach,
+                click-through rate, watch time, retention, subscribers, and
+                engaged viewers.
               </p>
             </div>
 
@@ -114,10 +112,10 @@ export default function AboutPage() {
                   </span>
                   <div>
                     <strong style={{ color: "var(--text-inverse)" }}>
-                      Integrated Multi-Channel Stack:
+                      YouTube Growth Stack:
                     </strong>{" "}
-                    SEO, performance ads, social creative, and conversion tech
-                    working in sync.
+                    Channel strategy, video SEO, promotion, and performance
+                    insights working in sync.
                   </div>
                 </li>
                 <li style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
@@ -149,8 +147,8 @@ export default function AboutPage() {
               <div className="stat-lbl">Campaigns Delivered</div>
             </div>
             <div className="stat-box">
-              <div className="stat-num">3</div>
-              <div className="stat-lbl">Regional Hubs (DEL, BOM, IXC)</div>
+              <div className="stat-num">100%</div>
+              <div className="stat-lbl">YouTube Focus</div>
             </div>
             <div className="stat-box">
               <div className="stat-num">&#8377;50Cr+</div>
@@ -178,11 +176,10 @@ export default function AboutPage() {
           <div className="why-grid">
             <div className="why-item reveal">
               <span className="eyebrow">01</span>
-              <h3>On-Ground Insight</h3>
+              <h3>YouTube-first thinking</h3>
               <p>
-                Our localized teams understand regional nuances, buying
-                behaviors, and hyper-local audience triggers across key Indian
-                cities.
+                Every recommendation is shaped around YouTube discovery,
+                viewer behavior, and channel growth.
               </p>
             </div>
             <div className="why-item reveal">

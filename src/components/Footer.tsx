@@ -34,20 +34,8 @@ export default function Footer() {
               <Link href="/">Home</Link>
               <Link href="/services">Services</Link>
               <Link href="/about">Why Us</Link>
-              <Link href="/branches">Our Offices</Link>
+              <Link href="/about">Why Choose Us</Link>
               <Link href="/contact">Contact Us</Link>
-            </div>
-          </div>
-
-          <div>
-            <h4>Offices</h4>
-            <div className="footer-branch-list">
-              {siteConfig.branches.map((b) => (
-                <div key={b.code} className="footer-branch-item">
-                  <span className="branch-code">{b.code}</span>
-                  <span>{b.city}</span>
-                </div>
-              ))}
             </div>
           </div>
 

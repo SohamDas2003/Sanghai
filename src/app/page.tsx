@@ -32,7 +32,7 @@ export default function HomePage() {
             </div>
 
             <h1>
-              Digital
+              YouTube
               <span className="hero-pill" aria-hidden="true">
                 <svg
                   viewBox="0 0 76 36"
@@ -67,13 +67,13 @@ export default function HomePage() {
                   />
                 </svg>
               </span>
-              marketing that gets you <em>results.</em>
+              promotion that gets you <em>discovered.</em>
             </h1>
 
             <p className="lead">
-              Digital agency offering tailored growth systems to build a
-              commanding presence, acquire qualified leads, and scale your brand
-              across India.
+              Focused YouTube promotion to help creators and brands reach the
+              right viewers, grow engaged audiences, and turn videos into
+              lasting channel momentum.
             </p>
 
             <div className="hero-cta-area">
@@ -122,13 +122,13 @@ export default function HomePage() {
 
             <div className="hero-strip">
               <div>
-                <strong>3</strong>Offices, One Team
+                <strong>100%</strong>YouTube Focus
               </div>
               <div>
-                <strong>360°</strong>Full-Funnel Marketing
+                <strong>SEO</strong>Video Discovery
               </div>
               <div>
-                <strong>1:1</strong>Dedicated Account Lead
+                <strong>1:1</strong>Growth Guidance
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@ export default function HomePage() {
             {/* Hero Character / Portrait */}
             <Image
               src="/hero-executive.png"
-              alt="Digital Marketing Growth Partner"
+              alt="YouTube Promotion Growth Partner"
               width={380}
               height={460}
               className="hero-person-img"
@@ -194,7 +194,7 @@ export default function HomePage() {
               <span>⭐</span> 4.9/5 Rating &middot; 500+ Campaigns
             </div>
             <div className="hero-badge badge-bottom">
-              <span>📍</span> Delhi &middot; Mumbai &middot; Chandigarh
+              <span>▶</span> YouTube Growth
             </div>
           </div>
         </div>
@@ -218,8 +218,8 @@ export default function HomePage() {
               <span className="eyebrow">What We Do</span>
               <h2>Every channel that moves a customer from scroll to sale.</h2>
               <p>
-                Pick one service or hand us the whole funnel &mdash; our teams work
-                as a single unit across all three cities.
+                From channel strategy to video promotion, every service is
+                focused on helping your YouTube presence grow.
               </p>
             </div>
             <Link href="/services" className="btn btn-outline-dark">
@@ -240,10 +240,10 @@ export default function HomePage() {
                   <circle cx="11" cy="11" r="7" />
                   <path d="M21 21l-4.35-4.35" />
                 </svg>
-                <h3>Search Engine Optimisation</h3>
+                <h3>YouTube Channel Strategy</h3>
                 <p>
-                  On-page, technical and high-authority local SEO engineered to
-                  get your brand discovered and dominate search rankings.
+                  Build a clear channel direction with content pillars and a
+                  roadmap designed around your audience.
                 </p>
               </div>
               <Link
@@ -271,10 +271,10 @@ export default function HomePage() {
                   <path d="M12 2v20M2 12h20" />
                   <circle cx="12" cy="12" r="9" />
                 </svg>
-                <h3>Paid Media &amp; Google Ads</h3>
+                <h3>YouTube Video SEO</h3>
                 <p>
-                  Targeted search, display, and social ad campaigns optimized
-                  strictly for positive ROI and lower cost-per-lead.
+                  Improve discovery with stronger topics, titles, descriptions,
+                  thumbnails, and metadata.
                 </p>
               </div>
               <Link
@@ -303,10 +303,10 @@ export default function HomePage() {
                   <circle cx="8.5" cy="8.5" r="1.5" />
                   <path d="M21 15l-5-5L5 21" />
                 </svg>
-                <h3>Social Media Marketing</h3>
+                <h3>YouTube Promotion Campaigns</h3>
                 <p>
-                  Creative brand positioning, viral content production, and
-                  community engagement designed for real customer retention.
+                  Reach relevant viewers through targeted promotion built to
+                  create genuine channel momentum.
                 </p>
               </div>
               <Link
@@ -333,10 +333,10 @@ export default function HomePage() {
                 >
                   <path d="M4 4h16v12H8l-4 4V4z" />
                 </svg>
-                <h3>Website Design &amp; Development</h3>
+                <h3>Audience Growth &amp; Analytics</h3>
                 <p>
-                  High-speed, responsive, conversion-focused websites and web
-                  apps crafted to turn visitors into paying customers.
+                  Use watch time, retention, and audience signals to make every
+                  upload and campaign perform better.
                 </p>
               </div>
               <Link
@@ -363,10 +363,10 @@ export default function HomePage() {
                 >
                   <path d="M12 3l2.5 5 5.5.7-4 3.8 1 5.5L12 15l-5 3 1-5.5-4-3.8 5.5-.7L12 3z" />
                 </svg>
-                <h3>Branding &amp; Creative</h3>
+                <h3>Content Growth Guidance</h3>
                 <p>
-                  Cohesive brand identities, visual style systems, and compelling
-                  copy that make your company instantly memorable.
+                  Get practical recommendations that keep your channel
+                  consistent, compelling, and easy to remember.
                 </p>
               </div>
               <Link
@@ -393,10 +393,10 @@ export default function HomePage() {
                 >
                   <path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z" />
                 </svg>
-                <h3>Online Reputation Management</h3>
+                <h3>Channel Performance Reviews</h3>
                 <p>
-                  Proactive review curation, sentiment management, and PR
-                  protection to keep your digital brand spotless.
+                  Understand what is working and where to focus next with
+                  regular performance reviews.
                 </p>
               </div>
               <Link
@@ -421,91 +421,42 @@ export default function HomePage() {
           <div className="section-head reveal">
             <span className="eyebrow">Why This Team</span>
             <h2>
-              Three offices means three time zones of market insight, one working
-              day apart.
+              A focused YouTube partner for better content, reach, and growth.
             </h2>
           </div>
           <div className="why-grid">
             <div className="why-item reveal">
               <span className="eyebrow">01</span>
-              <h3>On-ground, not outsourced</h3>
+              <h3>Built for YouTube</h3>
               <p>
-                Client teams sit in the same city as the markets you&apos;re
-                trying to win &mdash; Delhi, Mumbai and Chandigarh.
+                We keep our strategy, promotion, and reporting centered on the
+                way YouTube audiences discover and watch content.
               </p>
             </div>
             <div className="why-item reveal">
               <span className="eyebrow">02</span>
               <h3>One account, one owner</h3>
               <p>
-                A single point of contact runs your account end to end, across
-                every channel we touch.
+                One dedicated point of contact keeps your channel plan clear
+                and your next steps focused.
               </p>
             </div>
             <div className="why-item reveal">
               <span className="eyebrow">03</span>
               <h3>Numbers over noise</h3>
               <p>
-                Monthly reporting tied to leads and revenue &mdash; not
-                impressions dressed up as results.
+                We focus on meaningful signals like reach, watch time,
+                retention, subscribers, and engagement.
               </p>
             </div>
             <div className="why-item reveal">
               <span className="eyebrow">04</span>
               <h3>Fast to move</h3>
               <p>
-                Small enough to turn a campaign around in days, structured enough
-                to scale it nationally.
+                Test, learn, and improve quickly so your strongest ideas reach
+                more of the right audience.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Regional Branches Overview */}
-      <section className="section branches">
-        <div className="wrap">
-          <div
-            className="section-head reveal"
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "flex-end",
-              flexWrap: "wrap",
-              gap: "20px",
-              maxWidth: "100%",
-            }}
-          >
-            <div>
-              <span className="eyebrow">Our Offices</span>
-              <h2>Find us in Delhi, Mumbai and Chandigarh.</h2>
-              <p>
-                Drop in for a coffee and a strategy chat, or start on WhatsApp &mdash;
-                either works.
-              </p>
-            </div>
-            <Link href="/branches" className="btn btn-outline-light">
-              Explore Our Branches &rarr;
-            </Link>
-          </div>
-          <div className="branch-grid">
-            {siteConfig.branches.map((b) => (
-              <div key={b.code} className="branch-card reveal">
-                <svg
-                  className="pin"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                >
-                  <path d="M12 22s7-7.2 7-12a7 7 0 10-14 0c0 4.8 7 12 7 12z" />
-                  <circle cx="12" cy="10" r="2.5" />
-                </svg>
-                <span className="branch-code">{b.code}</span>
-                <h3>{b.city}</h3>
-                <div className="branch-tag">{b.tag}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -517,8 +468,8 @@ export default function HomePage() {
             <span className="eyebrow">Get In Touch</span>
             <h2>Tell us about your brand. We&apos;ll tell you how to grow it.</h2>
             <p>
-              Share a few details and the team in your closest city will get back
-              to you &mdash; usually the same working day.
+              Share your channel goals and we&apos;ll get back to you with focused
+              YouTube growth recommendations.
             </p>
             <div className="info-row">
               <svg
@@ -532,19 +483,6 @@ export default function HomePage() {
                 <path d="M4 6l8 7 8-7" />
               </svg>
               <span>{siteConfig.email}</span>
-            </div>
-            <div className="info-row">
-              <svg
-                className="icn"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.6"
-              >
-                <path d="M12 22s7-7.2 7-12a7 7 0 10-14 0c0 4.8 7 12 7 12z" />
-                <circle cx="12" cy="10" r="2.5" />
-              </svg>
-              <span>Delhi &middot; Mumbai &middot; Chandigarh</span>
             </div>
           </div>
 

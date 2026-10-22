@@ -21,12 +21,11 @@ export async function POST(request: Request) {
       );
     }
 
-    const { website, name, phone, email, city, service, message } = data as {
+    const { website, name, phone, email, service, message } = data as {
       website?: string;
       name?: string;
       phone?: string;
       email?: string;
-      city?: string;
       service?: string;
       message?: string;
     };
@@ -42,7 +41,6 @@ export async function POST(request: Request) {
     const trimmedName = (name || "").trim();
     const trimmedPhone = (phone || "").trim();
     const trimmedEmail = (email || "").trim();
-    const trimmedCity = (city || "Delhi").trim();
     const trimmedService = (service || "Not sure yet").trim();
     const trimmedMessage = (message || "").trim();
 
@@ -71,7 +69,6 @@ export async function POST(request: Request) {
       trimmedName,
       trimmedPhone,
       trimmedEmail,
-      trimmedCity,
       trimmedService,
       trimmedMessage,
     ]
@@ -79,7 +76,7 @@ export async function POST(request: Request) {
       .join(",") + "\n";
 
     if (!fs.existsSync(csvPath)) {
-      const header = "Timestamp,Name,Phone,Email,City,Service,Message\n";
+      const header = "Timestamp,Name,Phone,Email,Service,Message\n";
       fs.writeFileSync(csvPath, header + row, "utf-8");
     } else {
       fs.appendFileSync(csvPath, row, "utf-8");
